@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CocktailsListComponent } from './components/cocktails-list.component';
-import { CocktailDetailsComponent } from './components/cocktail-details.component';
+import { CocktailsList } from './components/cocktails-list';
+import { CocktailDetails } from './components/cocktail-details';
 
 @Component({
   selector: 'app-cocktails',
-  imports: [CocktailsListComponent, CocktailDetailsComponent],
+  imports: [CocktailsList, CocktailDetails],
   template: `
     <app-cocktails-list class="w-half card" />
     <app-cocktail-details class="w-half card" />
@@ -17,4 +17,4 @@ import { CocktailDetailsComponent } from './components/cocktail-details.componen
     }
   `,
 })
-export class CocktailsComponent {}
+export class Cocktails {}

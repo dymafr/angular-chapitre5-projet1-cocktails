@@ -19,7 +19,7 @@ import { Cocktail } from 'app/shared/interfaces';
     }
   `,
 })
-export class CocktailDetailsComponent {
+export class CocktailDetails {
   cocktail: Cocktail = {
     imageUrl:
       'https://static.750g.com/images/1200-675/dfe52623942a8b2e6b4f1e1715a42570/servez-et-degustez.jpg',

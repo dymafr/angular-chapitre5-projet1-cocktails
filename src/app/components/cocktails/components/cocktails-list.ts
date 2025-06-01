@@ -25,4 +25,4 @@ import { Component } from '@angular/core';
     <button class="btn btn-primary">Ajouter un cocktail</button>
   `,
 })
-export class CocktailsListComponent {}
+export class CocktailsList {}
